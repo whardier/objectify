@@ -74,8 +74,8 @@ def obj_collapse_iter(
         yield (_path, obj)
 
 
-def obj_collapse(obj: Any, canonical: bool = True):
-    return list(obj_collapse_iter(obj, canonical=canonical))
+def obj_collapse(obj: Any, *args, **kwargs):
+    return list(obj_collapse_iter(obj, *args, **kwargs))
 
 
 __all__ = [
