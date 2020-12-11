@@ -30,8 +30,6 @@
 
 from typing import Any, Iterator, Optional, Tuple
 
-__all__ = ["obj_collapse_iter", "obj_collapse"]
-
 
 def obj_collapse_iter(
     obj: Any, canonical: bool = True, _path: Optional[Tuple[Any, ...]] = None
@@ -78,3 +76,6 @@ def obj_collapse_iter(
 
 def obj_collapse(obj: Any, canonical: bool = True):
     return list(obj_collapse_iter(obj, canonical=canonical))
+
+
+__all__ = ["obj_collapse_iter", "obj_collapse"]
