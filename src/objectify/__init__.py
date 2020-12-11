@@ -78,4 +78,7 @@ def obj_collapse(obj: Any, canonical: bool = True):
     return list(obj_collapse_iter(obj, canonical=canonical))
 
 
-__all__ = ["obj_collapse_iter", "obj_collapse"]
+__all__ = [
+    "obj_collapse_iter",
+    "obj_collapse",
+]
