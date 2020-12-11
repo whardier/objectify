@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "objectify"
+name = "objector"
 version = "2020.11.0a1"
 description = "Object recursion, mapping, and iteration tools"
 authors = ["Shane R. Spencer <305301+whardier@users.noreply.github.com>"]
-homepage = "https://github.com/whardier/objectify"
-repository = "https://github.com/whardier/objectify"
+homepage = "https://github.com/whardier/objector"
+repository = "https://github.com/whardier/objector"
 license = "MIT"
 readme = "README.md"
 
